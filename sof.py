@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Sort of Fractal
+"""MyLSystem
 
-Actually a L-system I've been obssessing with since my middle school days.
+My implementation of an L-system I've been obsessing with since my
+middle school days. I used to call it "Sort of Fractal". :)
 """
 
 # quick and dirty implementation
@@ -20,6 +21,7 @@ def draw(system, length=20):
     #turtle.pendown()
     turtle.reset()
     turtle.hideturtle()
+    turtle.left(90)
 
     stack = []
     for symbol in system:
@@ -148,3 +150,9 @@ if __name__ == '__main__':
     draw(system, length=20)
 
     # TODO: add save to image, re-implement turtle so it doesn't need to go to screen
+    screen = turtle.getscreen()
+    screen.getcanvas().postscript(file='test.eps')
+    # thanks https://github.com/kvoss/lsystem/blob/master/example-plant.py for this instruction
+    # https://pypi.org/project/lsystems/
+
+    # TODO: can use Tkinter Canvas to get exists of a point for collision test?
