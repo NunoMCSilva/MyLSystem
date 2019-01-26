@@ -1,2 +1,7 @@
+per = pipenv run
+
 test:
-	pipenv run pytest
+	$(per) pytest
+
+flake:
+	$(per) flake8
