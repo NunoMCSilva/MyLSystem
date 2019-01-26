@@ -1,4 +1,5 @@
 # MyLSystem
 
-- A lot; :)
+- Check all TODOs;
+- A lot. :)
 
