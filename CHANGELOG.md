@@ -21,4 +21,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## 0.0.1 - 2019-01-26
 ### Added
 - All of it. It's a quick and dirty implementation lacking in functionality.
-
