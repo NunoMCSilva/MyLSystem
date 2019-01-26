@@ -21,20 +21,8 @@ class LSystem():
 
     def step(self) -> None:
         # TODO: add docstring
-        # TODO: raises error...
 
         def apply_rule(symbol):
-            return self.production_rules[symbol]
+            return self.production_rules.get(symbol, symbol)
 
         self.system = ''.join(list(map(apply_rule, self.system)))
-
-    # TODO: remove this
-    """
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        system = self.system
-        self._step()
-        return system
-    """
