@@ -4,6 +4,9 @@
 
 This module implements an L-System. See https://en.wikipedia.org/wiki/L-system
 for more information.
+
+Classes:
+    LSystem -- L-system implementation
 """
 
 from typing import Dict
@@ -14,7 +17,7 @@ class LSystem():
 
     def __init__(self, axiom: str, production_rules: Dict[str, str]):
         # TODO: add docstring
-        # TODO: verify correctness of axiom and production_rules?
+        # TODO: verify correctness of production_rules?
 
         self.system = axiom
         self.production_rules = production_rules
