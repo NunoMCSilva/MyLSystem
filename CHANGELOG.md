@@ -6,12 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ## Added
+- Work in progress.
+
+## 0.0.3 - 2019-01-26
+## Added
 - A new L-system implementation and its tests.
-- Changed development to pipenv environment
+- Changed development to pipenv environment.
 
 ## Changed
-- README.md formatting.
-- TODO.md formatting.
+- Updates to README.md and TODO.md.
 
 ## 0.0.2 - 2019-01-26
 ## Changed
