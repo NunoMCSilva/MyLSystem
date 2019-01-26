@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Sort of Fractal
+"""MyLSystem
 
-Actually a L-system I've been obssessing with since my middle school days.
+My implementation of an L-system I've been obsessing with since my
+middle school days. I used to call it "Sort of Fractal". :)
 """
 
 # quick and dirty implementation
